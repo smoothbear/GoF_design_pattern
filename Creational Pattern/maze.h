@@ -55,5 +55,6 @@ class Maze {
 class MazeGame {
     public:
         Maze* CreateMaze();
-        Maze* CreateMaze(MazeFactory& factory);
+        Maze* CreateMaze(MazeFactory&);
+        Maze* CreateMaze(MazeBuilder&);
 };
